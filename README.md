@@ -39,10 +39,10 @@ The analysis of this election shows that:
 A script was written in Python to import election data, including county of registered voter and the selected candidate from several thousand ballots. This script can automate the process of auditing election results so that it could be used not only for other congressional districts but also senatorial districts and local elections.
 To update the script for new election data, update the "file_to_load" path with the new CSV data file name and location, for example:
 
-![resources_path](/Election_Analysis_Results/analysis/resources_path.png "Resources Path")
+![resources_path](Election_Analysis_Results/analysis/resources_path.PNG)
 
 Identify the index value of the data of interest, where the first column index starts at "0."  For example in election_results.csv, the candidate names are found in the third column (index 2) and county names of the registered voters is found in the second column (index 1):
 
-![Extract_names](Election_Analysis_Results/analysis/Extract_names.png "Extract names")
+![Extract_names](Election_Analysis_Results/analysis/Extract_names.PNG)
 
 Elements of the code can be modified in this way to be used for future elections. 
